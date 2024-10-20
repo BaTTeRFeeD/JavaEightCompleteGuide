@@ -1,4 +1,4 @@
-JAVA EIGHT COMPLETE GUIDE
+#  JAVA EIGHT COMPLETE GUIDE
 
 Это мой личный проект, в котором я сохраняю все скрипты из книги Герберта Шилдта "Java 8. Полное руководство."
 
