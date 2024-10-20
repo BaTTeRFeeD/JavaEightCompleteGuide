@@ -21,7 +21,7 @@ public class Main {
         player.addHealingListener(ha1::using);
         player.addHealingListener(ha2::using);
 
-        System.out.println(ANSI_CIAN + "Insert \"stop\" to end the program.\nAvailable command: damage <value>; show health; stop" + ANSI_RESET);
+        System.out.println(ANSI_CIAN + "Insert \"stop\" to end the program.\nAvailable command: " + ANSI_RESET + "damage <value>; show health; stop" + ANSI_RESET);
 
         infWhile:
         while (true){
