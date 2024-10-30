@@ -9,27 +9,7 @@ import java.util.Scanner;
 
 public class Test {
     public static void main(String[] args){
-        String bytes[] = {
-                "01110011",
-                "01110100",
-                "01100101",
-                "01110000",
-
-                "00101100",
-
-                "01111001",
-                "01101111",
-                "01110101",
-
-                "01101101",
-                "01111001",
-
-                "01100010",
-                "01100101",
-                "01110011",
-                "01110100"
-        };
-        System.out.println(BinaryCoder.decode(bytes));
+        System.out.println(System.getProperties());
     }
 
     @MyAnno(str = "Применение", value = 100)
@@ -100,5 +80,27 @@ public class Test {
         System.out.println(Math.abs(first - second) < 0.000001 ? "числа равны" : "числа не равны");
     }
 
+    public static void meth9(){
+        String bytes[] = {
+                "01110011",
+                "01110100",
+                "01100101",
+                "01110000",
 
+                "00101100",
+
+                "01111001",
+                "01101111",
+                "01110101",
+
+                "01101101",
+                "01111001",
+
+                "01100010",
+                "01100101",
+                "01110011",
+                "01110100"
+        };
+        System.out.println(BinaryCoder.decode(bytes));
+    }
 }
