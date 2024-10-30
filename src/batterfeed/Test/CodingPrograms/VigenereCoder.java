@@ -30,6 +30,7 @@ public final class VigenereCoder {
             int resNum = srcNum + keyNum > 25 ? srcNum + keyNum - 26 : srcNum + keyNum;
             result += ENG_LETTERS.charAt(resNum);
         }
+
         return result;
     }
 
