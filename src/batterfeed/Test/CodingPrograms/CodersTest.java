@@ -13,9 +13,12 @@ public class CodersTest {
 
         System.out.println();
 
+        System.out.println(
+                CaesarCoder.decode("YVH SROXFKLORV! DKDKD WYRM VKLIU WCHCDUBD JRWRY, SULQLPDM UDERWX!", 3));
+
         //for(String el : HexCoder.encode("Stepa<3Vika")) System.out.print(el + " ");
         //for(String el : HexCoder.encode("128sqrt(e980)")) System.out.print(el + " ");
         //for(String el : HexCoder.encode("In love with Vika")) System.out.print(el + " ");
-        //*for(String el : HexCoder.encode("I want to marry Victoria")) System.out.print(el + " ");
+        //for(String el : HexCoder.encode("I want to marry Victoria")) System.out.print(el + " ");
     }
 }
