@@ -1,6 +1,6 @@
 package batterfeed.Test.CodingPrograms;
 
-public final class VigenereCoderWithSynbols {
+public final class VigenereCoderWithSymbols {
     private static final String ENG_LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
     public static void main(String[] args) {
