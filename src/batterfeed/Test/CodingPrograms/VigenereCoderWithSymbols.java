@@ -4,14 +4,13 @@ public final class VigenereCoderWithSymbols {
     private static final String ENG_LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
     public static void main(String[] args) {
-        String text = "KSPD ALP FHMY PVXSPF CZF TC DIU?";
-        String key = "hello";
+        String text = "YCDCAMIXHCENXRSRFRGC";
+        String key = "forever";
 
-        //String encodedText = encode(text, key);
-        String decodedText = decode(text, key);
+        //String resultText = encode(text, key);
+        String resultText = decode(text, key);
 
-        //System.out.println("ENCODE: " + encodedText);
-        System.out.println("DECODE: " + decodedText);
+        System.out.println("RESULT: " + resultText);
     }
 
     public static String encode(String inputStr, String keyStr){
