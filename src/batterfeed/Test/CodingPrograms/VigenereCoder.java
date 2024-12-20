@@ -4,7 +4,7 @@ public final class VigenereCoder {
     private static final String ENG_LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
     public static void main(String[] args) {
-        String text = "US, MVY LFL VPSWMYR TI HOYQ!";
+        String text = "T RMLF NATH XHGA IDPHMVQZ NGG MZEK W PHIEW GTXZ LHU PR BGVZJZH";
         String key = "hello";
 
         //String encodedText = encode(text, key);

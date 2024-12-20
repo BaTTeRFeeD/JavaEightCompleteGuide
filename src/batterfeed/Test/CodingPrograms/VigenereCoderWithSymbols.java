@@ -4,8 +4,9 @@ public final class VigenereCoderWithSymbols {
     private static final String ENG_LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
     public static void main(String[] args) {
-        String text = "YCDCAMIXHCENXRSRFRGC";
-        String key = "forever";
+        String text = "T RMLF NATH XHGA IDPHMVQZ NGG MZEK W PHIEW GTXZ LHU PR BGVZJZH";
+        //             love you to the moon and backlove you to the moon and backlove
+        String key =  "love you to the moon and back";
 
         //String resultText = encode(text, key);
         String resultText = decode(text, key);
@@ -54,7 +55,23 @@ public final class VigenereCoderWithSymbols {
                 result += text.charAt(i);
                 continue;
             }
-            int resNum = srcNum - keyNum < 0 ? srcNum - keyNum + 26 : srcNum - keyNum;
+            //int resNum = srcNum - keyNum < 0 ? srcNum - keyNum + 26 : srcNum - keyNum;
+            int resNum;
+            if((srcNum - keyNum) < 0){
+                resNum = srcNum - keyNum;
+                do{
+                    resNum += 26;
+                } while (resNum < 26);
+                resNum -= 26;
+            } else{
+                resNum = srcNum - keyNum;
+                if(resNum > 25){
+                    do{
+                        resNum -= 26;
+                    } while (resNum >= 0);
+                    resNum += 26;
+                }
+            }
             result += ENG_LETTERS.charAt(resNum);
         }
         return result;
