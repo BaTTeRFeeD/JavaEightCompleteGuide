@@ -4,9 +4,20 @@ public final class VigenereCoderWithSymbols {
     private static final String ENG_LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
     public static void main(String[] args) {
-        String text = "T RMLF NATH XHGA IDPHMVQZ NGG MZEK W PHIEW GTXZ LHU PR BGVZJZH";
-        //             love you to the moon and backlove you to the moon and backlove
-        String key =  "love you to the moon and back";
+//        String text = "T RMLF NATH XHGA IDPHMVQZ NGG MZEK W PHIEW GTXZ LHU PR BGVZJZH";
+//        String key =  "love you to the moon and back";MSNEIXJYCDEMVPAWTXJVZF
+
+//        String text =
+//                "BSRPGHIJODSAQVJHZRBEGJFJSIAYTKZPGQRPSLWCEGUM." +
+//                "FPXZYWJQPGYGSKXZVZKTRXZKZASJCJYRUSIWJRNMCJYMTRXGVWVPCDCLVYVVFAJ." +
+//                "WYKYVZWCEGUSEWJRCDCEGZMEFPZPGMFS." +
+//                "RRYMRRHYEOPLHYPRPQSJF." +
+//                "MGSMJMFYQMBF.";
+
+        String text = "NZFZZCFZJZOVEEIWNMGPDFFICTSL";
+
+
+        String key =  "forever";
 
         //String resultText = encode(text, key);
         String resultText = decode(text, key);
