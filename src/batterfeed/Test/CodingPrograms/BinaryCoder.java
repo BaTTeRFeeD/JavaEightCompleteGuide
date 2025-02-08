@@ -1,6 +1,10 @@
 package batterfeed.Test.CodingPrograms;
 
 public class BinaryCoder {
+    public static void main(String[] args) {
+        System.out.println(decode(new String[]{"01101000", "01100101", "01101100", "01101100", "01101011", "01110101", "01101111", "01110010", "01101100", "01100101"}));
+    }
+
     public static String[] encode(String text, char c){
         String[] result = new String[text.length()];
         for(int i = 0; i < text.length(); i++){

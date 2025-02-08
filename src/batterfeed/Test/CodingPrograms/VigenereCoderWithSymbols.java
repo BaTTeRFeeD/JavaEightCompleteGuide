@@ -14,8 +14,8 @@ public final class VigenereCoderWithSymbols {
 //                "RRYMRRHYEOPLHYPRPQSJF." +
 //                "MGSMJMFYQMBF.";
 
-        String text = "NZFZZCFZJZOVEEIWNMGPDFFICTSL";
-
+//        String text = "NZFZZCFZJZOVEEIWNMGPDFFICTSL";
+        String text = "RMCSQI,XHVTV,PTIRVZQPFBXIG,RSRZRHCCNTVMRMCQBVZZVSJZZIQIZSOYIVVKQWBITSLWGRKVME!";
 
         String key =  "forever";
 
