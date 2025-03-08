@@ -15,12 +15,13 @@ public final class VigenereCoderWithSymbols {
 //                "MGSMJMFYQMBF.";
 
 //        String text = "NZFZZCFZJZOVEEIWNMGPDFFICTSL";
-        String text = "RMCSQI,XHVTV,PTIRVZQPFBXIG,RSRZRHCCNTVMRMCQBVZZVSJZZIQIZSOYIVVKQWBITSLWGRKVME!";
+        //String text = "RMCSQI,XHVTV,PTIRVZQPFBXIG,RSRZRHCCNTVMRMCQBVZZVSJZZIQIZSOYIVVKQWBITSLWGRKVME!";
+        String text = "sieben drei eins funf acht";
 
         String key =  "forever";
 
-        //String resultText = encode(text, key);
-        String resultText = decode(text, key);
+        String resultText = encode(text, key);
+        //String resultText = decode(text, key);
 
         System.out.println("RESULT: " + resultText);
     }
